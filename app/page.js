@@ -10,7 +10,6 @@ import Footer from '../components/Footer';
 
 const FlinixWebsite = () => {
   return (
-
     <div className="bg-black text-white min-h-screen">
       <Hero />
       <Stats />
