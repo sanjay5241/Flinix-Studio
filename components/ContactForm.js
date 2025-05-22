@@ -68,7 +68,7 @@ const ContactForm = () => {
     `;
 
     // Create mailto URL
-    const mailtoURL = `mailto:hello.flinix@gmail.com.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoURL = `mailto:hello.flinix@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     // Open the default mail client
     window.location.href = mailtoURL;
